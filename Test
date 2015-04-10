@@ -38,7 +38,7 @@ import javax.imageio.ImageIO;
 		    
 		    
 		    public void navigateStartGameMenu(Robot robot) {
-				robot.mouseMove (248, 462);
+				robot.mouseMove (gameRegion[0]+248,gameRegion[1]+ 462);
 				leftClick(robot);
 			
 			} 
